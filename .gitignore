@@ -1,0 +1,36 @@
+# Environment variables and secrets
+.env
+.env*.local
+*.env
+
+# Dependencies
+node_modules/
+
+# Production build outputs
+dist/
+dist-ssr/
+frontend/dist/
+
+# Logs and debug files
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Operating system and editor artifacts
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/*
+!.vscode/extensions.json
+
+# Test and coverage artifacts
+coverage/
+.nyc_output/
+
+# Internal documentation & private notes
+docs/
+.github/
+
